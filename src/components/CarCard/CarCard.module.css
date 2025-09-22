@@ -1,0 +1,37 @@
+.container {
+  width: 300px;
+  border-radius: 15px;
+  background-color: #fcfcfc;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px;
+}
+.location {
+  font-size: 18px;
+  color: gray;
+  padding: 15px;
+}
+.title {
+  font-size: 25px;
+  padding: 0 15px;
+}
+.price {
+  font-size: 20px;
+  padding: 20px 15px;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  padding: 20px 25px;
+  font-size: 18px;
+}
+.titlecontainer {
+  display: flex;
+  flex-direction: row;
+}
+.divider {
+  margin: 0 16px;
+  border: 1px solid rgb(227, 225, 225);
+}
